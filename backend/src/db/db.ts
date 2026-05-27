@@ -1,6 +1,6 @@
 import postgres from "postgres";
 
-const url: string = process.env.DB_CONNECTION_URL || '';
+const url: string = process.env.DB_URL || '';
 
 const db = postgres(url);
 

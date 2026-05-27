@@ -5,17 +5,22 @@
   "scripts": {
     "build": "tsc",
     "dev": "node --env-file=.env --import tsx --watch src/server.ts",
-    "start": "node --env-file=.env --import tsx src/server.ts"
+    "start": "node --env-file=.env --import tsx src/server.ts",
+    "migrate": "node --env-file=.env db/migrate.js"
   },
   "type": "module",
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^25.9.1",
     "tsx": "^4.22.3",
+    "types": "file:../../../../../path",
     "typescript": "^6.0.3"
   },
   "dependencies": {
     "express": "^5.2.1",
-    "postgres": "^3.4.9"
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "postgres": "^3.4.9",
+    "url": "^0.11.4"
   }
 }
