@@ -1,4 +1,4 @@
-import { request, Response } from "express";
+import type { Request, Response } from "express";
 import * as projectService from "../services/project.service.js";
 
 export const createProject = async (req: Request, res: Response) => {
