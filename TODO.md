@@ -8,7 +8,7 @@
 - [ ] finish project crud
 - [ ] finish content type crud
 - [ ] finsih field crud
-## dynamic api endpoints
+## handle content entries
 - [ ] create entries table
 - [ ] create entries route
 ## auth & multi-tenacity
