@@ -3,11 +3,11 @@
 ## basic route setups
 - [x] create project route
 - [x] create content type route
-- [ ] create field route
-- [ ] error handling meiddlewear
-- [ ] finish project crud
-- [ ] finish content type crud
-- [ ] finsih field crud
+- [x] create field route
+- [x] error handling meiddlewear
+- [x] finish project crud
+- [x] finish content type crud
+- [x] finsih field crud
 ## handle content entries
 - [ ] create entries table
 - [ ] create entries route

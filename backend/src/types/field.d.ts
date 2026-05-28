@@ -2,9 +2,7 @@ type UUID = string;
 type FieldId = UUID & { readonly __brand: 'FieldId' };
 type ContentTypeId = UUID & { readonly __brand: 'ContentTypeId' };
 
-enum FieldType {
-    'text', 'rechtext', 'number', 'boolean', 'date', 'media', 'slug'
-};
+type FieldType = 'text' | 'rechtext' | 'number' | 'boolean' | 'date' | 'media' | 'slug';
 
 export default interface Field {
     id: FieldId,
