@@ -9,8 +9,9 @@
 - [x] finish content type crud
 - [x] finsih field crud
 ## handle content entries
-- [ ] create entries table
-- [ ] create entries route
+- [x] create entries table
+- [x] create entry route
+- [ ] finish entry crud routes
 ## auth & multi-tenacity
 - [ ] set up Auth.js
 - [ ] set up orginizations
