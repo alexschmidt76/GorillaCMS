@@ -1,9 +1,6 @@
 import db from "../db/db.js";
 import makeSlug from "../util/makeSlug.js";
-
-type UUID = string & { readonly __brand: 'UUID' };
-
-type JsonObject = Record<string, unknown>;
+import type { UUID, JsonObject } from "../types/global.js";
 
 type FieldType = 'text' | 'rechtext' | 'number' | 'boolean' | 'date' | 'media' | 'slug';
 
