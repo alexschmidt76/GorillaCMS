@@ -16,3 +16,4 @@
 - [ ] set up orginizations
 - [ ] tie projects to org ids
 - [ ] set up API key generation
+- [ ] set up cors for allowed origins
